@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Launch countdown timer</title>
+</head>
+
+<body class="main-body" onload="startCounter()">
+
+  <section class="launch-timer-section">
+    <div class="launchTimer-container">
+      <div class="launchTimer-topTitle">WE'RE LAUNCHING SOON</div>
+
+      <div class="launchTimer-counters">
+        <div class="counter-wrapper counter-daysWrapper">
+          <div class="counter-value" id="daysValue">08</div>
+          <div class="counter-title">DAYS</div>
+        </div>
+        <div class="counter-wrapper counter-hoursWrapper">
+          <div class="counter-value" id="hoursValue"> 23</div>
+          <div class="counter-title">HOURS</div>
+        </div>
+        <div class="counter-wrapper counter-minutesWrapper">
+          <div class="counter-value" id="minutesValue">55</div>
+          <div class="counter-title">MINUTES</div>
+         
+        </div>
+        <div class="counter-wrapper counter-secondsWrapper">
+          <div class="counter-value" id="secondsValue">41</div>
+          <div class="counter-title">SECONDS</div>
+        </div>
+      </div>
+
+      <div class="launchTimer-footer">
+        <div class="footer-item"><img id="footer-item-fbimg" src="./images/icon-facebook.svg" /></div>
+        <div class="footer-item"><img id="footer-item-ptimg" src="./images/icon-pinterest.svg" /></div>
+        <div class="footer-item"><img id="footer-item-inimg" src="./images/icon-instagram.svg" /></div>
+      </div>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>
