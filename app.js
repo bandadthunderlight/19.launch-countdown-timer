@@ -6,7 +6,7 @@ const secondsValue = document.querySelector('#secondsValue')
 
 let finalTimeObject = {
     selectedYear: 2024,
-    selectedMonth: 6,
+    selectedMonth: 9,
     selectedDay: 12,
     selectedHour: 12,
     selectedMinuts: 30,
